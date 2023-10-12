@@ -1,0 +1,189 @@
+.navDiv{
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    color: #1D49A0;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #ffffff;  
+}
+   
+body{
+    font-family: "Jura", sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 40px;
+    }
+
+h2{
+    text-decoration-line: underline;
+    font-size: 20px;
+    }
+    
+h3{
+    font-size: 20px;
+    }
+
+h5{
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+
+.headerItem{
+display: flex;
+background-color: #ffffff;
+justify-content: space-evenly;
+}
+
+.headerButton{
+    font-family: 'Jura', sans-serif;
+    font: 15px;
+    font-size: 30px;
+    padding: 20px;
+    align-items: center;
+    color: #1D49A0;
+    font-weight: bold;
+}
+.headerButtonShopInfo{
+    font-family: 'Jura', sans-serif;
+    font: 15px;
+    font-size: 30px;
+    padding: 20px;
+    align-items: center;
+    color: black;
+    background-color: #ffffff;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.chatQuote{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;   
+    color: #1D49A0;
+}
+/*______Content*/
+.mainContent{
+    background-color: rgba(27, 13, 44, 0.7);
+    border-radius: 15px;
+    padding: 10px;
+}
+.mainContent1{
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+}
+.mainContent2{
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+}
+.mainContentText{
+    display: flex;
+}
+
+.mainContentText1{
+  color: white;
+  opacity: 1.0;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.mainLocation{
+    display: flex;
+}
+
+.mainLocation1{
+    text-align: left;
+}
+.buttonGoogleMaps{
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    font: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(99, 52, 117)
+}
+.buttonAppleMaps{
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    font: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(99, 52, 117)
+}
+.mapImage{
+    margin-top: 75px;
+    margin-left: 100px;
+}
+.flexButton{
+    display: flex;
+}
+.mainSchedule{
+    text-align: center;
+}
+.mainPhone{
+    text-align: center;
+}
+.mainHours{
+display: flex;
+}
+.mainDay{
+    text-align: left;
+    padding-right: 35px;
+}
+.mainTime{
+    text-align: right;
+    padding-left: 35px;
+}
+
+
+/*______Footer*/ 
+.footerContainer {
+    display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: space-around;
+    color: #1D49A0;
+  }
+
+  .footerLocation {
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-color: #1D49A0;  
+  border-left-color: #1D49A0;  
+  }
+
+.footerOperation {
+background-color: #ffffff;
+text-align: center;
+}
+.footerSchedule{
+    display:flex;
+    justify-content: space-around;
+}
+.footerDay{
+text-align: left;
+}
+
+.footerTime{
+  text-align: right;
+}
